@@ -1,0 +1,1 @@
+docker run -d -p 49160:22 -p 49161:1521 -e ORACLE_ALLOW_REMOTE=true registry.one2.newtouch.com:5000/newtouchone/nbo-oracle:4.2.3
