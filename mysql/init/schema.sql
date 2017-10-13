@@ -1,5 +1,7 @@
+SET SQL_SAFE_UPDATES = 0;
+
 -- 创建 nbo 开发数据库
-create database `nbo_dev` default character set utf8 collate utf8_general_ci;
+create database IF NOT EXISTS `nbo_dev` default character set utf8 collate utf8_general_ci;
 use nbo_dev;
 
 -- ----------------------------
@@ -2089,3 +2091,4 @@ ON `NBO_PROJECT_ROLE_ENV` (`FK_PROJECT_ID` ASC);
 -- ----------------------------
 CREATE INDEX `NBO_PROJECT_USER_ROLE_PRO_ID`
 ON `NBO_PROJECT_USER_ROLE` (`FK_PROJECT_ID` ASC);
+

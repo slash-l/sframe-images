@@ -13,6 +13,7 @@ echo `service mysql status`
 echo '2.开始导入数据....'
 #导入数据
 mysql --default-character-set=utf8 < /mysql/schema.sql
+mysql --default-character-set=utf8 < /mysql/2017.10.13.sql
 echo '3.导入数据完毕....'
 
 sleep 3

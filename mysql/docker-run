@@ -1,1 +1,1 @@
-docker run -d -p 3306:3306 mysql:4.2.6
+docker run -d -p 3306:3306 nbo-mysql:4.2.6
