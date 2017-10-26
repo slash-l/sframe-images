@@ -135,7 +135,7 @@ INSERT INTO `NBO_ADMIN_PROJECT_MENU` VALUES ('21', '修改代码仓库', 'platfo
 INSERT INTO `NBO_ADMIN_PROJECT_MENU` VALUES ('23', '代码检查', 'platform.app.appDetails.codeReview', '1', '0', '23', null, null, null, null, null, null, null, null, null, 'FUNCTION');
 INSERT INTO `NBO_ADMIN_PROJECT_MENU` VALUES ('24', '单元测试', 'platform.app.appDetails.unitText', '1', '0', '24', null, null, null, null, null, null, null, null, null, 'FUNCTION');
 INSERT INTO `NBO_ADMIN_PROJECT_MENU` VALUES ('25', '作业编排', 'platform.app.appDetails.jobSchedul', '1', '0', '25', null, null, null, null, null, null, null, null, null, 'FUNCTION');
-INSERT INTO `NBO_ADMIN_PROJECT_MENU` VALUES ('26', '申请测试', 'platform.app.appDetails.applyText', '1', '0', '26', null, null, null, null, null, null, null, null, null, 'FUNCTION');
+INSERT INTO `NBO_ADMIN_PROJECT_MENU` VALUES ('26', '申请测试', 'platform.app.appDetails.applyTest', '1', '0', '26', null, null, null, null, null, null, null, null, null, 'FUNCTION');
 INSERT INTO `NBO_ADMIN_PROJECT_MENU` VALUES ('27', '提交测试结果（FT测试阶段）', 'platform.app.appDetails.submitFT', '1', '0', '27', null, null, null, null, null, null, null, null, null, 'FUNCTION');
 INSERT INTO `NBO_ADMIN_PROJECT_MENU` VALUES ('28', '提交测试结果（SLT测试阶段）', 'platform.app.appDetails.submitSLT', '1', '0', '28', null, null, null, null, null, null, null, null, null, 'FUNCTION');
 INSERT INTO `NBO_ADMIN_PROJECT_MENU` VALUES ('29', '提交测试结果（UAL测试阶段）', 'platform.app.appDetails.submitUAL', '1', '0', '29', null, null, null, null, null, null, null, null, null, 'FUNCTION');

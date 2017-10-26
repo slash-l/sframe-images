@@ -1,5 +1,5 @@
 # mysql Dockerfile
-FROM mysql
+FROM mysql:5.7
 
 LABEL maintainer="slash_mumu@163.com"
 
